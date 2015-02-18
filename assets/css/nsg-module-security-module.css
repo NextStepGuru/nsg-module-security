@@ -1,0 +1,48 @@
+.input-group {
+	margin-bottom:10px;
+	width:100%;
+}
+.input-group-addon {
+	width:40px;
+}
+.btn-sign-in {
+	width:70%;
+	margin-left:auto;
+}
+.small-text{
+	font-size:9pt;
+}
+.form-signin {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid silver;
+}
+
+.form-signin-heading {
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin: 0;
+	padding: 10px 20px;
+	background:#ccc;
+	font-size:16pt;
+}
+
+.form-content {
+	margin:15px 0px;
+	padding:0px 0px;
+}
+
+.btn-trello{color:#fff;background-color:#256a92;border-color:rgba(0,0,0,0.2)}.btn-trello:hover,.btn-trello:focus,.btn-trello:active,.btn-trello.active,.open>.dropdown-toggle.btn-trello{color:#fff;background-color:#00375f;border-color:rgba(0,0,0,0.2)}
+.btn-trello:active,.btn-trello.active,.open>.dropdown-toggle.btn-trello{background-image:none}
+.btn-trello.disabled,.btn-trello[disabled],fieldset[disabled] .btn-trello,.btn-trello.disabled:hover,.btn-trello[disabled]:hover,fieldset[disabled] .btn-trello:hover,.btn-trello.disabled:focus,.btn-trello[disabled]:focus,fieldset[disabled] .btn-trello:focus,.btn-trello.disabled:active,.btn-trello[disabled]:active,fieldset[disabled] .btn-trello:active,.btn-trello.disabled.active,.btn-trello[disabled].active,fieldset[disabled] .btn-trello.active{background-color:#256a92;border-color:rgba(0,0,0,0.2)}
+.btn-trello .badge{color:#256a92;background-color:#fff}
+
+.btn-evernote{color:#fff;background-color:#7ac142;border-color:rgba(0,0,0,0.2)}.btn-evernote:hover,.btn-evernote:focus,.btn-evernote:active,.btn-evernote.active,.open>.dropdown-toggle.btn-evernote{color:#fff;background-color:#478e0f;border-color:rgba(0,0,0,0.2)}
+.btn-evernote:active,.btn-evernote.active,.open>.dropdown-toggle.btn-evernote{background-image:none}
+.btn-evernote.disabled,.btn-evernote[disabled],fieldset[disabled] .btn-evernote,.btn-evernote.disabled:hover,.btn-evernote[disabled]:hover,fieldset[disabled] .btn-evernote:hover,.btn-evernote.disabled:focus,.btn-evernote[disabled]:focus,fieldset[disabled] .btn-evernote:focus,.btn-evernote.disabled:active,.btn-evernote[disabled]:active,fieldset[disabled] .btn-evernote:active,.btn-evernote.disabled.active,.btn-evernote[disabled].active,fieldset[disabled] .btn-evernote.active{background-color:#7ac142;border-color:rgba(0,0,0,0.2)}
+.btn-evernote .badge{color:#7ac142;background-color:#fff}

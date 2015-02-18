@@ -7,19 +7,10 @@
 					<div class="form-content">
 						<div class="col-sm-5">
 							<label>Social Login via...</label>
-							<cfset moduleList = structKeyList(getSetting("Modules"))>
-							<cfif findnocase('-google',moduleList)>
-								<a href="/security/oauth/google" class="btn btn-block btn-social btn-google-plus"><i class="fa fa-google-plus"></i> Sign in with Google</a>
-							</cfif>
-							<cfif findnocase('-facebook',moduleList)>
-								<a href="/security/oauth/facebook" class="btn btn-block btn-social btn-facebook"><i class="fa fa-facebook"></i> Sign in with Facebook</a>
-							</cfif>
-							<cfif findnocase('-twitter',moduleList)>
-								<a href="/security/oauth/twitter" class="btn btn-block btn-social btn-twitter"><i class="fa fa-twitter"></i> Sign in with Twitter</a>
-							</cfif>
-							<cfif findnocase('-linkedin',moduleList)>
-								<a href="/security/oauth/linkedin" class="btn btn-block btn-social btn-linkedin"><i class="fa fa-linkedin"></i> Sign in with LinkedIn</a>
-							</cfif>
+							<cfset loginList = getSetting('nsgSocialLogin',false,arrayNew())>
+							<cfloop index="i" from="1" to="#arrayLen(loginList)#">
+								<a href="/security/login/#loginList[i]['name']#" class="btn btn-block btn-social btn-#loginList[i]['icon']#"><i class="fa fa-#loginList[i]['icon']#"></i> Sign in with #loginList[i]['title']#</a>
+							</cfloop>
 						</div>
 						<div class="col-sm-7">
 							<label for="inputEmail">Email Address</label>

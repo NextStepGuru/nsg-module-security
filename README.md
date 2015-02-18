@@ -22,7 +22,7 @@ box install nsg-module-security
 
 ####Add the following structure to Coldbox.cfc
 
-    security = {
+    nsgSecurity = {
         allowAccountCreation        = true,
         maxLoginFailureAttempts     = 5
-    }
+    },

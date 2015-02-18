@@ -1,7 +1,7 @@
 {
     "name":"nsg-module-security",
     "slug":"nsg-module-security",
-    "version":"1.0.1",
+    "version":"1.0.2",
     "author":"Jeremy R DeYoung",
     "shortDescription":"Security Module with User/ORM, Social Login, & Sign-up",
     "location":"",

@@ -1,7 +1,7 @@
 <cfoutput>
 	<div class="row">
-		<div class="col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8">
-			<div class="form-signin clearfix">
+		<div class="col-xs-12">
+			<div class="form-signin">
 				<form>
 					<h2 class="form-signin-heading"><i class="fa fa-lock"></i> Secure Login Form</h2>
 					<div class="form-content">
@@ -11,6 +11,7 @@
 							<cfloop index="i" from="1" to="#arrayLen(loginList)#">
 								<a href="/security/login/#loginList[i]['name']#" class="btn btn-block btn-social btn-#loginList[i]['icon']#"><i class="fa fa-#loginList[i]['icon']#"></i> Sign in with #loginList[i]['title']#</a>
 							</cfloop>
+							<br>
 						</div>
 						<div class="col-sm-7">
 							<label for="inputEmail">Email Address</label>
